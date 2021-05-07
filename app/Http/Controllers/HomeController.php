@@ -1,11 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace app\Http\Controllers;
 
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index()
-     return view('home');
+    {
+     return view("home");
+    }
 }
